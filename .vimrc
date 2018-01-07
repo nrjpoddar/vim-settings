@@ -173,6 +173,7 @@ syntax on
 set ruler
 set ignorecase
 set hls
+set backspace=indent,eol,start
 
 " Highlight vim-go
 let g:go_highlight_functions = 1  

@@ -4,7 +4,7 @@ languages.
 ## Usage
 Clone this repository as `.vim` under your $HOME directory
 ```bash
-git clone https://github.com/nrjpoddar/vim-settings.git $HOME/.vim
+git clone --recursive https://github.com/nrjpoddar/vim-settings.git $HOME/.vim
 ```
 Create a symbolic link for `$HOME/.vimrc` from this repository
 ```bash

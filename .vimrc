@@ -2,7 +2,8 @@ execute pathogen#infect()
 
 " Enable filetype plugins
 " Required for vim-go
-filetype plugin on
+" Enable indent
+filetype plugin indent on
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " CSCOPE settings for vim           
@@ -182,3 +183,9 @@ let g:go_highlight_structs = 1
 let g:go_highlight_operators = 1  
 let g:go_highlight_build_constraints = 1
 let g:go_highlight_operators = 1
+
+" General tab settings
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set textwidth=80
